@@ -8,6 +8,7 @@ public class JenkinstrialApplication {
 
 	public static void main(String[] args) {
 		System.err.println("Jenkis test ::::::::::::::::::::::::::::::::::{{Test Success}}");
+		System.out.println("ohk its done or fake jenkins");
 		SpringApplication.run(JenkinstrialApplication.class, args);
 	}
 
