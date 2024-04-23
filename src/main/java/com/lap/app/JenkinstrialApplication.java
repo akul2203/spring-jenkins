@@ -8,16 +8,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JenkinstrialApplication {
 
-    // Declare logger instance
-    private static final Logger logger = LoggerFactory.getLogger(JenkinstrialApplication.class);
+	// Declare logger instance
+	private static final Logger logger = LoggerFactory.getLogger(JenkinstrialApplication.class);
 
-    public static void main(String[] args) {
-        System.err.println("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
-        logger.info("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
-        // Log a message at INFO level
-        logger.info("Starting JenkinstrialApplication...");
-        logger.info("test Log -------------------------------------Starting JenkinstrialApplication...");
+	public static void main(String[] args) {
+		System.err.println("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
+		logger.info("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
+		// Log a message at INFO level
+		logger.info("Starting JenkinstrialApplication...");
+		logger.info("test Log -------------------------------------Starting JenkinstrialApplication...");
 
-        SpringApplication.run(JenkinstrialApplication.class, args);
-    }
+		SpringApplication.run(JenkinstrialApplication.class, args);
+	}
 }
