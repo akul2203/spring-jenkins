@@ -12,8 +12,8 @@ public class JenkinstrialApplication {
 	private static final Logger logger = LoggerFactory.getLogger(JenkinstrialApplication.class);
 
 	public static void main(String[] args) {
-		System.err.println("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
 		logger.info("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
+		System.err.println("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
 		// Log a message at INFO level
 		logger.info("Starting JenkinstrialApplication...");
 		logger.info("test Log -------------------------------------Starting JenkinstrialApplication...");
