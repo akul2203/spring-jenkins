@@ -14,6 +14,7 @@ public class JenkinstrialApplication {
 	public static void main(String[] args) {
 		logger.info("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
 		System.err.println("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
+		System.err.println("Jenkins test ::::::::::::::::::::::::::::::::::{{Test Success}}");
 		// Log a message at INFO level
 		logger.info("Starting JenkinstrialApplication...");
 		logger.info("test Log -------------------------------------Starting JenkinstrialApplication...");
